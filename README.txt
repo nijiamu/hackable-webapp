@@ -9,4 +9,4 @@ Building the WAR file:
 
 Starting the application on http://localhost:8080
 
-  mvn jetty:run
+  mvn clean jetty:run
