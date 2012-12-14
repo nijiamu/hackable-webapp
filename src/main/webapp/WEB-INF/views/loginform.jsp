@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<div style="float: left; margin-right: 3em;">
+<div style="float: right; margin: 3em">
 
 <h3>Login</h3>
 
@@ -40,6 +40,14 @@
 <c:forEach var="message" items="${messages}">
   <p>${message}</p>
 </c:forEach>
+
+<f:form action="/message"  commandName="messageForm">
+    <p><b>Write message:</b>
+	<br><f:textarea path="message" />
+	<br><input type="submit" value="Submit" />
+	<br><span style="color: Red"><f:errors path="message" /></span>
+    </p>
+</f:form>
 
 </div>
 
